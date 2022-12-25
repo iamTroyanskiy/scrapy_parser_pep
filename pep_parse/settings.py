@@ -23,3 +23,6 @@ FEEDS = {
 BASE_DIR = Path(__file__).parent.parent
 
 DATETIME_PATTERN = "%Y-%m-%d_%H-%M-%S"
+
+PEP_ALLOWED_DOMAINS = ['peps.python.org']
+PEP_START_URLS = ['https://peps.python.org/']
